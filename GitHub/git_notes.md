@@ -97,6 +97,12 @@ Branching is really useful
     git checkout blah                     # [to switch to the 'blah' branch
     git checkout master; git merge blah   # [merge blah into master]
 
+### Deleting a branch:
+For a remote deleting: 
+ git push origin --delete <branchname> 
+For a local deleting:
+git branch -D <branchname>
+
 
 ### Going back
 
